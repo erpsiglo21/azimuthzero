@@ -40,7 +40,7 @@ class LandedCost(models.Model):
             'cost_lines': [(0, 0, {
                 'product_id': product.id,
                 'name': product.name or '',
-                'split_method': product.product_tmpl_id.plit_method_landed_cost or 'equal',
+                'split_method': product.product_tmpl_id.split_method_landed_cost or 'equal',
                 'price_unit': price,
                 'account_id': product.property_account_expense_id.id
                     or product.categ_id.property_account_expense_categ_id.id,
