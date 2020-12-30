@@ -26,7 +26,7 @@ class LandedCost(models.Model):
 
         cost_lines = {}
         for line in invoices.mapped('invoice_line_ids'):
-            if line.product_id.landed_cost_ok:
+            if line.product_id.product_tmpl_id.landed_cost_ok:
                 cost_lines.update({
                     line.product_id: cost_lines.get(
                         line.product_id, 0.0) + line.price_unit,
@@ -40,7 +40,7 @@ class LandedCost(models.Model):
             'cost_lines': [(0, 0, {
                 'product_id': product.id,
                 'name': product.name or '',
-                'split_method': product.split_method or 'equal',
+                'split_method': product.product_tmpl_id.plit_method_landed_cost or 'equal',
                 'price_unit': price,
                 'account_id': product.property_account_expense_id.id
                     or product.categ_id.property_account_expense_categ_id.id,
