@@ -60,5 +60,5 @@ class AdjustmentLines(models.Model):
         cost and quantity."""
         for record in self:
             record.new_cost = (
-                record.former_cost_per_unit + record.additional_landed_cost
+                record.former_cost + record.additional_landed_cost
                 / record.quantity)

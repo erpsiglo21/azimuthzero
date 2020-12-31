@@ -16,8 +16,6 @@
         'views/account_move_views.xml',
     ],
     'demo': [
-        'demo/product_demo.xml',
-        'demo/account_move_demo.xml',
     ],
     'installable': True,
     'auto_install': False,
