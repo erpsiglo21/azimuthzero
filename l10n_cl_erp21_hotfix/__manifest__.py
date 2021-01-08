@@ -4,7 +4,7 @@
     'summary': 'Correcciones al modulo de facturacion electronica',
     'version': '0.1',
     'author': 'ERP Siglo 21',
-    'category': 'Warehouse',
+    'category': 'Accounting/Localizations/Account Charts',
     'license': 'AGPL-3',
     'depends': [
         'l10n_cl'
