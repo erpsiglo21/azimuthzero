@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="informations_erps21_hf" inherit_id="informations">
+    <template id="informations_erps21_hf" inherit_id="l10n_cl.informations">
         <xpath expr="//span[@t-esc='report_date']" position="replace">
             <span t-esc="o.report_date" t-options='{"widget": "date"}'/>
         </xpath>
