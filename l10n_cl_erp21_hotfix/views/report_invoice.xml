@@ -6,8 +6,8 @@
         </xpath>
     </template>
     <template id="report_invoice_document" inherit_id="l10n_cl.report_invoice_document" primary="True">
-        <xpath expr="//t[@t-call='l10n_cl.informations']" position="attributes">
-            <attribute name="t-lang">doc.partner_id.lang</attribute>
+        <xpath expr="//t[@t-call='l10n_cl.informations']" position="replace">
+            <t t-call="l10n_cl_erps21_hotfix.informations" t-lang="lang"/>
         </xpath>
     </template>
 </odoo>
