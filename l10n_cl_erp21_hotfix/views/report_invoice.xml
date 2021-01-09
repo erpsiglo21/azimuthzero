@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="informations_erps21_hf" inherit_id="l10n_cl.informations">
+    <template id="informations" inherit_id="l10n_cl.informations">
         <xpath expr="//span[@t-esc='report_date']" position="replace">
             <span t-esc="o.invoice_date" t-options='{"widget": "date"}'/>
         </xpath>
+    </template>
+    <template id="report_invoice_document_erps21_hf" inherit_id="l10n_cl.report_invoice_document" primary="True">
+        <div id="informations" position="replace">
+            <t t-call="l10n_cl_erps21_hf.informations" t-lang="doc.partner_id.lang"/>
+        </div>
     </template>
 </odoo>
