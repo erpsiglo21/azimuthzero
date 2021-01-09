@@ -5,9 +5,9 @@
             <span t-esc="o.invoice_date" t-options='{"widget": "date"}'/>
         </xpath>
     </template>
-    <template id="report_invoice_document_erps21_hf" inherit_id="l10n_cl.report_invoice_document" primary="True">
-        <div id="informations" position="replace">
-            <t t-call="l10n_cl_erps21_hf.informations" t-lang="doc.partner_id.lang"/>
-        </div>
+    <template id="report_invoice_document" inherit_id="l10n_cl.report_invoice_document" primary="True">
+        <xpath expr="//t[@t-call='l10n_cl.informations']" position="attributes">
+            <attribute name="t-lang">doc.partner_id.lang</attribute>
+        </xpath>
     </template>
 </odoo>
