@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <template id="custom_header" inherit_id="l10n_cl.custom_header">
+        <xpath expr="//t[@t-call='l10n_cl.custom_footer']" position="replace">
+            <t t-call="l10n_cl.custom_footer" t-lang="lang"/>
+        </xpath>
+    </template>
     <template id="informations" inherit_id="l10n_cl.informations">
         <div id="informations" position="replace">
             <div class="col-6">
