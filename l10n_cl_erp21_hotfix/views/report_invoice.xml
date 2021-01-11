@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="informations" inherit_id="l10n_cl.informations">
-        <div id="informations" class="row mt8 mb8">
+        <div id="informations" position="replace">
             <div class="col-6">
                 <strong>
                     <span t-att-style="'color: %s;' % o.company_id.secondary_color">Date:</span>
@@ -38,9 +38,6 @@
                     <span t-field="o.invoice_incoterm_id.name"/>
                 </t>
             </div>
-        </div>
-        <div id="references" class="row">
-            <div name="references" class="col-12 text-center"/>
         </div>
     </template>
     <template id="report_invoice_document" inherit_id="l10n_cl.report_invoice_document" primary="True">
