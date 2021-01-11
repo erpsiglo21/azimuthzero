@@ -691,39 +691,41 @@ msgid "You need a journal without the use of documents for foreign suppliers"
 msgstr ""
 "Ud. necesita un diario que no use documentos para registrar facturas de "
 "proveedores extranjeros"
+
 #. module: l10n_cl_erp21_hotfix
 #: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
 msgid ""
 "<br/>\n"
-"                    <strong>Incoterm:</strong>"
+"                        <strong>Incoterm:</strong>"
 msgstr ""
 
 #. module: l10n_cl_erp21_hotfix
 #: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
 msgid ""
 "<br/>\n"
-"                <strong>Address:</strong>"
+"                    <strong>Address:</strong>"
 msgstr ""
 "<br/>\n"
-"                <strong>Dirección:</strong>"
+"                    <strong>Dirección:</strong>"
 
 #. module: l10n_cl_erp21_hotfix
 #: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
 msgid ""
 "<br/>\n"
-"                <strong>Customer:</strong>"
+"                    <strong>Customer:</strong>"
 msgstr ""
 "<br/>\n"
-"                <strong>Cliente:</strong>"
+"                    <strong>Cliente:</strong>"
 
 #. module: l10n_cl_erp21_hotfix
 #: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
 msgid ""
+msgid ""
 "<br/>\n"
-"                <strong>Payment Terms:</strong>"
+"                    <strong>Payment Terms:</strong>"
 msgstr ""
 "<br/>\n"
-"                <strong>Plazo de pago:</strong>"
+"                    <strong>Plazo de pago:</strong>"
 
 #. module: l10n_cl_erp21_hotfix
 #: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
