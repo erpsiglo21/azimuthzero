@@ -25,7 +25,7 @@
                         <br/>
                     </t>
                     <strong>GIRO:</strong>
-                    <span t-esc="o.partner_id.industry_id.name or ''"/>
+                    <span t-esc="o.partner_id.l10n_cl_activity_description or ''"/>
                     <br/>
                 </div>
                 <div class="col-6">
