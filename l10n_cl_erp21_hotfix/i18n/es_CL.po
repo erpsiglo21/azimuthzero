@@ -691,3 +691,51 @@ msgid "You need a journal without the use of documents for foreign suppliers"
 msgstr ""
 "Ud. necesita un diario que no use documentos para registrar facturas de "
 "proveedores extranjeros"
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid ""
+"<br/>\n"
+"                    <strong>Incoterm:</strong>"
+msgstr ""
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid ""
+"<br/>\n"
+"                <strong>Address:</strong>"
+msgstr ""
+"<br/>\n"
+"                <strong>Dirección:</strong>"
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid ""
+"<br/>\n"
+"                <strong>Customer:</strong>"
+msgstr ""
+"<br/>\n"
+"                <strong>Cliente:</strong>"
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid ""
+"<br/>\n"
+"                <strong>Payment Terms:</strong>"
+msgstr ""
+"<br/>\n"
+"                <strong>Plazo de pago:</strong>"
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Fecha vencimiento:</strong>"
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid "<strong>GIRO:</strong>"
+msgstr "<strong>Giro:</strong>"
+
+#. module: l10n_cl_erp21_hotfix
+#: model_terms:ir.ui.view,arch_db:l10n_cl_erp21_hotfix.informations
+msgid "Date:"
+msgstr "Fecha:"
