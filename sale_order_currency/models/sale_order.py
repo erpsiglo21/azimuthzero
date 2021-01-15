@@ -8,7 +8,6 @@ class SaleOrder(models.Model):
     
     convert_to_company_currency = fields.Boolean(u'Convertir a moneda local?')
 
-    @api.multi
     def _prepare_invoice(self):
         invoice_vals = super(SaleOrder, self)._prepare_invoice()
         if self.convert_to_company_currency:
