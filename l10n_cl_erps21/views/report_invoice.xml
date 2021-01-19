@@ -24,7 +24,7 @@
             </div>
         </template>
         <template id="report_invoice_document" inherit_id="l10n_cl_edi.barcode_stamp_footer">
-            <xpath expr="//@div[class='page']" position="inside">
+            <xpath expr="//div[@class='page']" position="inside">
                 <t t-if="print_with_receipt_data"
                     t-call="l10n_cl_erps21.reception_information" t-lang="lang"/>
             </xpath>
