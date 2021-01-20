@@ -1,4 +1,4 @@
-from odoo import fields
+from odoo import fields, models
 
 class AccountMove(models.Model):
     _name = 'account.move'
