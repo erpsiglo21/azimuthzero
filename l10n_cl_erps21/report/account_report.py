@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api
+from odoo import api, models
 
 class ReportInvoiceWithReceiptData(models.AbstractModel):
     _name = 'report.l10n_cl_erps21.report_invoice_with_receipt_data'
