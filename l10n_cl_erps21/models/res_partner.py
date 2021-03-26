@@ -41,7 +41,7 @@ class ResPartner(models.Model):
                     if len(csx_dir2) > 1:
                         self.street2 = csx_dir2
         else:
-            raise UserError("El tipo de documento de identificacion no acepta está operacion")
+            raise UserError("Solo se puede realizar para documentos de Chile (RUT, RUN)")
 
     def find_between_r(self, s, first, last ):
         try:
